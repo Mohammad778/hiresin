@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.clear{
+    overflow: hidden;
+}
+#Menu{
+    padding: 20px;
+    background: tomato;
+}
+
+.f-part{
+    float: left;
+    width: 40%;
+}
+.f-part img{
+    float:left;
+}
+.f-part h2{
+    font-size: 40px;
+    margin-left: 181px;
+    margin-top: -9px;
+    color: #fff;
+}
+.s-part{
+  width: 60%;
+ 
+}
+.s-part ul{
+   background: black;
+
+}
+.s-part ul li {
+    list-style: none;
+    float: left;
+}
+.s-part ul li a{
+    font-size:17px;
+	text-decoration:none;
+    color:rgb(255, 255, 255);
+    padding: 15px;
+}
+
+.s-part ul li a:hover{
+    color: orange;
+}
+.nav li:hover ul{
+    visibility: visible;
+}
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+    position: absolute;
+    width: 180px;
+    background: orangered;
+}
+
+.nav ul li a{
+    font-size:16px;
+	text-decoration:none;
+    color:rgb(255, 255, 255);
+    padding: 10px;
+    display: inline-block;
+    border-bottom: 1px solid #fff;
+}
+#Second-sec{
+
+}
+/*second section start */
+.sec{
+    position: relative;
+    text-align: center;
+    padding: 100px;
+    color: aliceblue;
+    background-image: url(images/computer-device-display-953213.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:center center; 
+    background-size:cover;
+    border-bottom: 10px solid orangered;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#overlay{
+	position:absolute;
+	top:59px;
+	left:0;
+	right:0;
+	bottom:0;
+	width:100%;
+	height:300px;
+	z-index:10;
+	background-color:rgba(0,0,0 ,.2);
+}
+.sec h2{
+    margin-bottom:20px;
+    font-size: 2.5rem;
+}
+.sec p{
+    font-size: 1.4rem;
+}
+
+#Third-sec{
+margin: 20px 10px 20px 20px ;
+}
+.section{
+    width:80%;
+    float: left;
+    display: grid;
+	grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+.fafa{
+    margin-bottom:50px;
+    padding: 10px; 
+    text-align: center;
+    padding-right:10px; 
+}
+.fafa h2{
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: brown;
+}
+.fafa h5{
+    font-size:20px;
+    margin-bottom:10px;  
+}
+.fafa p{
+    font-size:16px;
+
+}
+.aside{
+    width: 19%;
+    float: left;
+    padding-left:10px; 
+    overflow: hidden;
+}
+.pp{
+    background: #555;
+    padding: 30px;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: whitesmoke;
+    margin: 40px 0;
+    text-align: center;
+}
+.hello{
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    line-height: 2rem;
+    text-align: center;
+}
+.lab{
+    font-size: 17px;
+    margin-left: 55px;
+}
+.as input{
+    padding: 12px;
+    width: 80%;
+}
+.four{
+    border-top: 10px solid orangered;
+    padding: 60px;
+    background: #222;
+    color: rgb(204, 190, 190);    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-right:15px;
+    grid-gap:40px;
+}
+.first h2,.second h2,.third h2{
+    margin-bottom:20px; 
+}
+.four .first ul li{
+    list-style: none;
+}
+.four .first ul li a{
+    text-decoration: none;
+    color:rgb(119, 116, 116);
+   line-height: 25px;
+   font-size: 15px;
+}
+.second p{
+    margin-bottom:40px;
+    line-height: 22px; 
+    color:rgb(119, 116, 116);
+    text-align: justify;
+}
+.second a{
+    text-decoration: none;
+    border: 2px solid rgb(241, 187, 86);
+    display: inline block;
+    padding: 12px 18px;
+    color: orange;
+    font-size: 15px;
+    text-transform: uppercase;
+    
+}
+.second a:hover{
+    background: orange;
+    color: #fff;
+    transition: .8s;
+}
+.third p{
+    color:rgb(119, 116, 116);
+    margin-bottom: 10px;
+}
+.footer{
+    background: #111;
+    padding: 20px;
+    text-align: center;
+}
+.footer p{
+    color: #f6f6f6;;
+    color:rgb(119, 116, 116);
+}
+/*sign in*/
+.sign{
+    width: 50%;
+    margin: 0 auto;
+    color: #f4f4f4;
+    text-align: center;
+    background: #a39494;
+}
+.all-to{
+    box-shadow: 0 0 20px 0 rgba(204, 166, 94,.77);
+   background: rgb(229, 156, 130);
+}
+.all-to{
+    padding: 1rem;
+}
+.sign label{
+    display: block;
+    font-size: 17px;
+    padding: 5px;
+}
+.sign input{
+    width: 60%;
+    padding: 14px;
+    border-radius: 2px;
+}
+.sign-in{
+    padding: 10px 20px;;
+    margin-top: 10px;
+    width:40%;
+    color: white;
+    background: orangered;
+    border: none;
+}
+.sign-p{
+    padding: 10px 20px;;
+    margin-top: 10px;
+    width:25%;
+    color: white;
+    background: orangered;
+    border: none;
+}
